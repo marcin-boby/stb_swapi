@@ -1,16 +1,17 @@
 package com.swapi.sw.get;
 
 import com.swapi.base.BaseTest;
+import com.swapi.endpoins.SwApiEndpoints;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
+import static com.swapi.endpoins.SwApiEndpoints.*;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -19,7 +20,7 @@ public class GetTest extends BaseTest {
     @DisplayName("Get all info about Star Wars")
     @ParameterizedTest(name = "Display {0}, count: {1}")
     @MethodSource("createData")
-    public void readAllStarWarsInfo(String endpoint, String count) {
+    public void readAllStarWarsInfo(SwApiEndpoints endpoint, String count) {
 
         Response response = given()
                 .when()
