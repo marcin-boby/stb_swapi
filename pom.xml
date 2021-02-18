@@ -25,7 +25,7 @@
         <junit-platform-surefire-provider>1.1.0</junit-platform-surefire-provider>
         <junit-jupiter-engine>5.5.2</junit-jupiter-engine>
         <assertj-core>3.13.2</assertj-core>
-        <jackson-databind>2.10.1</jackson-databind>
+        <jackson-databind>2.10.5.1</jackson-databind>
         <lombok-version>1.18.12</lombok-version>
         <junit-jupiter-params>5.5.2</junit-jupiter-params>
     </properties>
