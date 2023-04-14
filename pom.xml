@@ -16,7 +16,7 @@
         <io.rest-assured>4.1.1</io.rest-assured>
         <org.junit.jupiter>5.5.2</org.junit.jupiter>
         <org.hamcrest>2.2</org.hamcrest>
-        <org.json>20180813</org.json>
+        <org.json>20230227</org.json>
         <com.github.javafaker>1.0.0</com.github.javafaker>
         <allure-junit5>2.11.0</allure-junit5>
         <allure-rest-assured>2.11.0</allure-rest-assured>
